@@ -1,0 +1,16 @@
+<?php
+function healthcareworksheet_menu(){
+    $items=array();
+
+    $items['health-care-worksheet'] = array(
+    'title' => t('Health Care Worksheet'),
+    'page callback' => 'healthCareWorksheetForm',
+    'file'=> 'hcws.inc',
+    'access arguments' => array('access content'),
+    'type' => MENU_SUGGESTED_ITEM,
+    );
+
+    return $items;
+
+ }
+ ?>

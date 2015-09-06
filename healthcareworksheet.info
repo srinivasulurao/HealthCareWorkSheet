@@ -1,0 +1,10 @@
+name = Health Care Needs Worksheet Module
+description = This is an API for the twotap app to purchase the api from mobile app, using webservices.
+core = 7.x
+package = Health Care Need Worksheet
+
+; Information added by drupal.org packaging script on 2009-08-18
+version = "7.x-1.0"
+core = "7.x"
+project = "healthcareworksheet"
+datestamp = "1250616168"
